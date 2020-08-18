@@ -1,0 +1,198 @@
+html{
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+h2{
+	font-family: 'Lemonada', cursive;
+}
+h1{
+
+	font-family: 'Lemonada', cursive;
+	text-align: center;
+}
+h3{
+	font-family: 'Lemonada', cursive;
+}
+body{
+	background-image: url(../img/fondoP.jpg);
+	line-height: 1.0;
+}
+#img{
+	width: 80%
+}
+#logo{
+	width: 30%;
+	padding-bottom: 2rem;
+	background-color: white;
+}
+.imagen_principal{
+	position: relative;
+    text-align: center;
+
+}
+.texto_encima{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+#imgp{
+	width: 100%;
+	
+}
+#redes{
+
+	width: 3%;
+}
+.navegacion a{
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 2.2rem;
+	display: block;
+}
+.navegacion a:hover {
+	color:black;
+}
+.navegacion a{
+
+		display: inline-block; 
+		font-size: 1.8rem; 
+		margin-right: 4rem;	
+	
+}
+.tres_columnas{
+
+	width: 85%;
+	background-color: #CFA86A;
+	color: black;
+}
+@media(min-width: 768px){
+
+	.columnas{
+
+		display: flex; 
+		justify-content: space-between; 
+	}
+
+@media(min-width: 480px){
+.columnas{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	column-gap: 2rem;
+}
+}
+@media (min-width: 800px){
+
+.columnas{
+
+	display: grid;
+	grid-template-columns:repeat(2,1fr);
+	column-gap: 2rem;
+}
+.site-footer{
+	background-color: #c29144;
+	margin: 0;
+}
+.contenedor-footer{
+	padding:1rem 0;
+	text-align: inherit;
+}
+footer{
+	color:black;
+}
+#menu{
+
+	width: 70%;
+	background-image:url(../img/fondomenu.jpg);
+	color: black;
+
+}
+#img_m{
+	width: 100%
+}
+@media(min-width: 768px){
+
+.seis_columnas{
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	column-gap: 2rem;
+}
+}
+@media (min-width: 900px){
+
+.seis-columnas{
+
+	display: grid;
+	grid-template-columns:repeat(2, 2fr);
+	column-gap: 2rem;
+}
+.three_columnas{
+	display: grid;
+	grid-template-columns:repeat(2, 2fr);
+	column-gap: 2rem;
+}
+}
+}
+#Nosotros{
+	width: 50%;
+	background-image: url(../img/fondomenu.jpg);
+	color: black;
+	text-align: center;
+}
+#ofertas{
+	width: 50%;
+	background-image: url(../img/fondomenu.jpg);
+	text-align: center
+
+}
+#ofert{
+	width: 80%
+}
+.visitanos{
+	
+	text-align: center;
+ 
+}
+.imgRedonda {
+    width:200px;
+    height:200px;
+    border-radius:350px;
+  }
+  .formulario{
+  	margin: 0%
+  	padding:0%;
+  	box-sizing: border-box;
+  }
+  .formulario{
+  	width: 400px;
+  	background-image: url(../img/fondomenu.jpg);
+  	padding: 30px;
+  	margin: auto;
+  	margin-top: 100px;
+  	font-family: 'Lemonada', cursive;
+  	box-shadow: 7px 13px 37px #000;
+  }
+  .controls{
+  	width: 100%
+  	background-color:#c29144;
+  	padding: 10px;
+  	border-radius: 4px;
+  	margin-bottom: 16px;
+  	border:1px solid color:black;
+  	font-family: 'Lemonada', cursive;
+  }
+  .boton{
+  	width: 100%;
+  	background-color: #503C1D;
+  	border:none;
+  	padding: 12px;
+  	color: black;
+  	margin: 16px 0;
+  	font-size: 16px;
+
+  }
